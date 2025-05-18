@@ -1,0 +1,22 @@
+{
+  "name": "battleship-server",
+  "version": "1.0.0",
+  "description": "Simple battleship server using core NodeJS, TypeScript, and WebSocket",
+  "main": "main.js",
+  "scripts": {
+    "start:dev": "ts-node-dev src/main.ts",
+    "build": "tsc",
+    "start": "tsc && node dist/main.js"
+  },
+  "author": "Sampath Sanjeewa",
+  "license": "ISC",
+  "dependencies": {
+    "ws": "^8.18.2"
+  },
+  "devDependencies": {
+    "@types/ws": "^8.18.1",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.8.3"
+  }
+}
