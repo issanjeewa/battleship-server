@@ -11,6 +11,7 @@
   "author": "Sampath Sanjeewa",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.5.0",
     "ws": "^8.18.2"
   },
   "devDependencies": {

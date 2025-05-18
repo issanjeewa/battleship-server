@@ -47,3 +47,13 @@ export type FinishGameResponse = {
   data: MsgDataTypes.FinishGameResponseData;
   id: number;
 };
+
+export type ResponseMessage =
+  | LoginResponse
+  | UpdateWinnersResponse
+  | CreateGameResponseData
+  | UpdateRoomResponse
+  | StartGameResponseData
+  | AttackResponseData
+  | TurnInfoResponse
+  | FinishGameResponse;

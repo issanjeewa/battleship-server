@@ -1,6 +1,9 @@
 import { createServer } from './server';
+import dotEnv from 'dotenv';
 
-const PORT = 8080;
+dotEnv.config();
+
+const PORT = process.env.SERVER_PORT || 8080;
 
 const server = createServer();
 

@@ -30,3 +30,10 @@ export type RandomAttackRequest = {
   data: MsgDataTypes.RandomAttackRequestData;
   id: number;
 };
+
+export type RequestMessage =
+  | LoginRequest
+  | CreateRoomRequest
+  | AddShipsRequest
+  | AttackRequest
+  | RandomAttackRequest;
